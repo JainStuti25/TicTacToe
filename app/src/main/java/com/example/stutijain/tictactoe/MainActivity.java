@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
             myGameState[tappedImgTag] = myActive;
             if (myActive == 0) {
                 myTapped.setImageResource(R.drawable.wrongmark);
-                myTapped.animate().rotation(180).setDuration(100);
+                myTapped.animate().rotation(360).setDuration(200);
                 myActive = 1;
 
             } else {
                 myTapped.setImageResource(R.drawable.circlepic);
-                myTapped.animate().rotation(180).setDuration(100);
+                myTapped.animate().rotation(360).setDuration(200);
                 myActive = 0;
             }
 
